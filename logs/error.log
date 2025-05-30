@@ -1,0 +1,2961 @@
+[31-May-2025 01:12:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\xampp\htdocs\FashionShop\app\controllers\UserController.php:77
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\index.php(190): UserController->updateUser()
+#1 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\controllers\UserController.php on line 77
+[31-May-2025 01:13:43 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+)
+
+[31-May-2025 01:13:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php:15
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(80): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(190): UserController->updateUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php on line 15
+[31-May-2025 01:14:54 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:14:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:14:54 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:14:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:14:54 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\user\me\updateProfile.php:12
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\layout.php(44): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(188): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(223): UserController->updateProfile()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\user\me\updateProfile.php on line 12
+[31-May-2025 01:15:36 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:15:36 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:36 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:36 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:36 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:38 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:38 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:38 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:38 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:43 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:15:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:43 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:43 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:43 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\user\me\updateProfile.php:12
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\layout.php(44): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(188): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(223): UserController->updateProfile()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\user\me\updateProfile.php on line 12
+[31-May-2025 01:15:52 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+)
+
+[31-May-2025 01:15:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php:15
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(80): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(190): UserController->updateUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php on line 15
+[31-May-2025 01:15:56 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:15:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:15:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:15:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\user\me\updateProfile.php:12
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\layout.php(44): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(188): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(223): UserController->updateProfile()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\user\me\updateProfile.php on line 12
+[31-May-2025 01:20:59 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:20:59 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:20:59 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:20:59 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:26 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:26:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:26:26 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:26:26 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:26 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:26:29 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:26:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:29 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:30 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:26:30 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:26:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:26:30 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:30 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:26:44 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+)
+
+[31-May-2025 01:26:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php:15
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(80): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(190): UserController->updateUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php on line 15
+[31-May-2025 01:31:36 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:31:36 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+)
+
+[31-May-2025 01:31:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:16
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 16
+[31-May-2025 01:31:41 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+)
+
+[31-May-2025 01:31:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php:15
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(80): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(190): UserController->updateUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\addUser.php on line 15
+[31-May-2025 01:37:01 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:37:01 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+)
+
+[31-May-2025 01:37:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:23
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 23
+[31-May-2025 01:44:16 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 01:44:16 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:44:16 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 01:44:16 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:44:16 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 01:44:18 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:44:18 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+)
+
+[31-May-2025 01:44:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:48:27 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:48:27 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 01:48:27 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:48:28 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:48:28 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 01:48:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:48:29 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:48:29 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 01:48:29 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:48:30 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 01:48:30 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 01:48:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:51:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\FashionShop\app\views\admin\users\users.php on line 3
+[31-May-2025 01:51:49 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\FashionShop\app\views\admin\users\users.php on line 4
+[31-May-2025 01:51:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function getImage() on array in C:\xampp\htdocs\FashionShop\app\views\admin\users\users.php:36
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(181): UserController->userAdmin()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\users.php on line 36
+[31-May-2025 01:52:56 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 0
+    [password:User:private] => $2y$10$sUiBICxhDM8F6A.MT/twt.LWcGnek2CKnx8x179PhySTGhygvp1cq
+)
+
+[31-May-2025 01:53:06 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+)
+
+[31-May-2025 01:53:06 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 01:53:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:53:13 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+)
+
+[31-May-2025 01:53:13 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 01:53:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\views\admin\adminLayout.php(50): require_once()
+#1 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(35): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#3 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 62
+[31-May-2025 01:55:04 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+)
+
+[31-May-2025 01:55:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function toArray() on array in C:\xampp\htdocs\FashionShop\app\models\UserModel.php:62
+Stack trace:
+#0 C:\xampp\htdocs\FashionShop\app\controllers\UserController.php(33): UserModel->getUserDetailByUserId('14')
+#1 C:\xampp\htdocs\FashionShop\index.php(184): UserController->detailUser()
+#2 {main}
+  thrown in C:\xampp\htdocs\FashionShop\app\models\UserModel.php on line 62
+[31-May-2025 01:55:34 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+)
+
+[31-May-2025 01:55:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 11
+[31-May-2025 01:55:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "isAdmin" in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 18
+[31-May-2025 01:55:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "totalOrders" in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 57
+[31-May-2025 01:55:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "totalSpent" in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 61
+[31-May-2025 01:56:29 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [image] => uploads/users/675dde0405305-OIP (2).jpg
+    [isAdmin] => 0
+)
+
+[31-May-2025 01:56:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "totalOrders" in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 57
+[31-May-2025 01:56:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "totalSpent" in C:\xampp\htdocs\FashionShop\app\views\admin\users\detailUser.php on line 61
+[31-May-2025 02:00:18 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [phone] => 0123456789
+    [email] => add@gmail.com
+    [password] => $2y$10$hSxNbKzdXDb8qNYQoU03qOVK4AiC3PwXZPah5w9XpWfdIwzpu7pD.
+    [image] => uploads/users/675dde0405305-OIP (2).jpg
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [gender] => 
+    [birthdate] => 0000-00-00
+    [isAdmin] => 0
+    [createdAt] => 2024-12-14
+    [totalOrders] => 7
+    [totalSpent] => 9870000
+)
+
+[31-May-2025 02:00:18 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [image] => uploads/users/675dde0405305-OIP (2).jpg
+    [isAdmin] => 0
+    [password] => $2y$10$hSxNbKzdXDb8qNYQoU03qOVK4AiC3PwXZPah5w9XpWfdIwzpu7pD.
+)
+
+[31-May-2025 02:00:24 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [phone] => 
+    [email] => phuochoang@gmail.com
+    [password] => $2y$10$sUiBICxhDM8F6A.MT/twt.LWcGnek2CKnx8x179PhySTGhygvp1cq
+    [image] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [gender] => 
+    [birthdate] => 0000-00-00
+    [isAdmin] => 0
+    [createdAt] => 2025-05-31
+    [totalOrders] => 0
+    [totalSpent] => 0
+)
+
+[31-May-2025 02:00:24 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 16
+    [userName] => 
+    [email] => phuochoang@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 0
+    [password] => $2y$10$sUiBICxhDM8F6A.MT/twt.LWcGnek2CKnx8x179PhySTGhygvp1cq
+)
+
+[31-May-2025 02:00:32 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [phone] => 0123456789
+    [email] => add@gmail.com
+    [password] => $2y$10$hSxNbKzdXDb8qNYQoU03qOVK4AiC3PwXZPah5w9XpWfdIwzpu7pD.
+    [image] => uploads/users/675dde0405305-OIP (2).jpg
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [gender] => 
+    [birthdate] => 0000-00-00
+    [isAdmin] => 0
+    [createdAt] => 2024-12-14
+    [totalOrders] => 7
+    [totalSpent] => 9870000
+)
+
+[31-May-2025 02:00:32 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [email] => add@gmail.com
+    [phone] => 0123456789
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [image] => uploads/users/675dde0405305-OIP (2).jpg
+    [isAdmin] => 0
+    [password] => $2y$10$hSxNbKzdXDb8qNYQoU03qOVK4AiC3PwXZPah5w9XpWfdIwzpu7pD.
+)
+
+[31-May-2025 02:00:36 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 0
+    [password:User:private] => $2y$10$sUiBICxhDM8F6A.MT/twt.LWcGnek2CKnx8x179PhySTGhygvp1cq
+)
+
+[31-May-2025 02:00:40 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 14
+    [userName:User:private] => Le Van A
+    [email:User:private] => add@gmail.com
+    [phone:User:private] => 0123456789
+    [city:User:private] => Ho Chi Minh
+    [district:User:private] => Quan 9
+    [ward:User:private] => Phuong Linh Dong
+    [street:User:private] => so 12, Kha Van Can
+    [image:User:private] => uploads/users/675dde0405305-OIP (2).jpg
+    [isAdmin:User:private] => 0
+    [password:User:private] => $2y$10$hSxNbKzdXDb8qNYQoU03qOVK4AiC3PwXZPah5w9XpWfdIwzpu7pD.
+)
+
+[31-May-2025 02:02:54 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\FashionShop\app\models\UserModel.php on line 65
+[31-May-2025 02:03:13 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 16
+    [userName] => 
+    [phone] => 
+    [email] => phuochoang@gmail.com
+    [password] => $2y$10$sUiBICxhDM8F6A.MT/twt.LWcGnek2CKnx8x179PhySTGhygvp1cq
+    [image] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [gender] => 
+    [birthdate] => 0000-00-00
+    [isAdmin] => 0
+    [createdAt] => 2025-05-31
+    [totalOrders] => 0
+    [totalSpent] => 0
+)
+
+[31-May-2025 02:03:17 Asia/Ho_Chi_Minh] user data: User Object
+(
+    [id:User:private] => 16
+    [userName:User:private] => 
+    [email:User:private] => phuochoang@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 0
+    [password:User:private] => $2y$10$sUiBICxhDM8F6A.MT/twt.LWcGnek2CKnx8x179PhySTGhygvp1cq
+)
+
+[31-May-2025 02:03:21 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:03:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:03:21 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:03:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:03:25 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:03:25 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:03:25 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:03:25 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:03:25 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:03:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:03:27 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:03:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:03:27 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:03:36 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 14
+    [userName] => Le Van A
+    [phone] => 0123456789
+    [email] => add@gmail.com
+    [password] => $2y$10$hSxNbKzdXDb8qNYQoU03qOVK4AiC3PwXZPah5w9XpWfdIwzpu7pD.
+    [image] => uploads/users/675dde0405305-OIP (2).jpg
+    [city] => Ho Chi Minh
+    [district] => Quan 9
+    [ward] => Phuong Linh Dong
+    [street] => so 12, Kha Van Can
+    [gender] => 
+    [birthdate] => 0000-00-00
+    [isAdmin] => 0
+    [createdAt] => 2024-12-14
+    [totalOrders] => 7
+    [totalSpent] => 9870000
+)
+
+[31-May-2025 02:04:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:04 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:04 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:05 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:05 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:05 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:05 Asia/Ho_Chi_Minh] Shop API Request - Parameters: {"page":1,"limit":9,"order":"ASC","order_by":"createdAt","search":"","categoryId":false,"price_start":false,"price_end":false}
+[31-May-2025 02:04:09 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:09 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:09 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:09 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] Checkout - User ID from session: 5
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] Checkout - Cart data: Array
+(
+    [0] => Array
+        (
+            [cartId] => 50
+            [userId] => 5
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [categoryName] => Đầm
+            [images] => Array
+                (
+                    [0] => Array
+                        (
+                            [imageId] => 48
+                            [productId] => 1
+                            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [cartId] => 49
+            [userId] => 5
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [categoryName] => Đầm
+            [images] => Array
+                (
+                    [0] => Array
+                        (
+                            [imageId] => 47
+                            [productId] => 4
+                            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                        )
+
+                )
+
+        )
+
+)
+
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] Checkout - Order total: 5600000
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] Checkout - Session data: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] Debug in view - Order total in view: 5600000
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] Debug in view - Session: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:11 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:19 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:04:19 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:04:19 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:19 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:19 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:19 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:20 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:04:20 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:04:20 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:20 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:20 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:20 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:21 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+    [flash_messages] => Array
+        (
+            [success] => Đặt hàng thành công
+        )
+
+)
+
+[31-May-2025 02:04:21 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:04:21 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:04:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 23
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => processing
+    [orderTotal] => 10600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 21
+                    [orderId] => 23
+                    [productId] => 11
+                    [quantity] => 2
+                    [totalPrice] => 5000000
+                    [productName] => KAREN DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+                    [price] => 2500000
+                    [categoryId] => 2
+                    [stock] => 50
+                    [views] => 6
+                    [createdAt] => 2024-12-14
+                    [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 22
+                    [orderId] => 23
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [2] => Array
+                (
+                    [orderItemId] => 23
+                    [orderId] => 23
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 21
+            [orderId] => 23
+            [productId] => 11
+            [quantity] => 2
+            [totalPrice] => 5000000
+            [productName] => KAREN DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+            [price] => 2500000
+            [categoryId] => 2
+            [stock] => 50
+            [views] => 6
+            [createdAt] => 2024-12-14
+            [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 22
+            [orderId] => 23
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [2] => Array
+        (
+            [orderItemId] => 23
+            [orderId] => 23
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:13 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:05:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:13 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:13 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 23
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => processing
+    [orderTotal] => 10600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 21
+                    [orderId] => 23
+                    [productId] => 11
+                    [quantity] => 2
+                    [totalPrice] => 5000000
+                    [productName] => KAREN DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+                    [price] => 2500000
+                    [categoryId] => 2
+                    [stock] => 50
+                    [views] => 6
+                    [createdAt] => 2024-12-14
+                    [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 22
+                    [orderId] => 23
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [2] => Array
+                (
+                    [orderItemId] => 23
+                    [orderId] => 23
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 21
+            [orderId] => 23
+            [productId] => 11
+            [quantity] => 2
+            [totalPrice] => 5000000
+            [productName] => KAREN DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+            [price] => 2500000
+            [categoryId] => 2
+            [stock] => 50
+            [views] => 6
+            [createdAt] => 2024-12-14
+            [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 22
+            [orderId] => 23
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [2] => Array
+        (
+            [orderItemId] => 23
+            [orderId] => 23
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:27 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:29 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:05:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:29 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:05:29 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:05:29 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 24
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => pending
+    [orderTotal] => 5600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 24
+                    [orderId] => 24
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 25
+                    [orderId] => 24
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 24
+            [orderId] => 24
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 25
+            [orderId] => 24
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:08:19 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:08:24 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:08:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:08:24 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:08:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:08:24 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 23
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => processing
+    [orderTotal] => 10600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 21
+                    [orderId] => 23
+                    [productId] => 11
+                    [quantity] => 2
+                    [totalPrice] => 5000000
+                    [productName] => KAREN DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+                    [price] => 2500000
+                    [categoryId] => 2
+                    [stock] => 50
+                    [views] => 6
+                    [createdAt] => 2024-12-14
+                    [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 22
+                    [orderId] => 23
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [2] => Array
+                (
+                    [orderItemId] => 23
+                    [orderId] => 23
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 21
+            [orderId] => 23
+            [productId] => 11
+            [quantity] => 2
+            [totalPrice] => 5000000
+            [productName] => KAREN DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+            [price] => 2500000
+            [categoryId] => 2
+            [stock] => 50
+            [views] => 6
+            [createdAt] => 2024-12-14
+            [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 22
+            [orderId] => 23
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [2] => Array
+        (
+            [orderItemId] => 23
+            [orderId] => 23
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:08:54 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:09:34 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:09:34 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:09:34 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:09:34 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:09:34 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 24
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => pending
+    [orderTotal] => 5600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 24
+                    [orderId] => 24
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 25
+                    [orderId] => 24
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 24
+            [orderId] => 24
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 25
+            [orderId] => 24
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:10:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:10:23 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:10:23 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:10:23 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:10:23 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:10:23 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:12:41 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:12:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:12:41 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:12:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:12:41 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:33 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:14:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:33 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:33 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:42 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:14:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:42 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:42 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:52 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:14:52 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:52 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:52 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:52 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 24
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => pending
+    [orderTotal] => 5600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 24
+                    [orderId] => 24
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 25
+                    [orderId] => 24
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 24
+            [orderId] => 24
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 25
+            [orderId] => 24
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:14:58 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:06 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:15:06 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:06 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:06 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 23
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => processing
+    [orderTotal] => 10600000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 21
+                    [orderId] => 23
+                    [productId] => 11
+                    [quantity] => 2
+                    [totalPrice] => 5000000
+                    [productName] => KAREN DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+                    [price] => 2500000
+                    [categoryId] => 2
+                    [stock] => 50
+                    [views] => 6
+                    [createdAt] => 2024-12-14
+                    [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+                )
+
+            [1] => Array
+                (
+                    [orderItemId] => 22
+                    [orderId] => 23
+                    [productId] => 1
+                    [quantity] => 2
+                    [totalPrice] => 2400000
+                    [productName] => OLAV DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1200000
+                    [categoryId] => 2
+                    [stock] => -1
+                    [views] => 14
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+                )
+
+            [2] => Array
+                (
+                    [orderItemId] => 23
+                    [orderId] => 23
+                    [productId] => 4
+                    [quantity] => 2
+                    [totalPrice] => 3200000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 21
+            [orderId] => 23
+            [productId] => 11
+            [quantity] => 2
+            [totalPrice] => 5000000
+            [productName] => KAREN DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun lưới
+Thiết kế hai dây mảnh
+Đầm dáng dài, xuyên thấu.
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện.
+            [price] => 2500000
+            [categoryId] => 2
+            [stock] => 50
+            [views] => 6
+            [createdAt] => 2024-12-14
+            [link] => uploads/products/675da89b705c5-z6131020647033_92e604b013c5d6ac26adb07991f96b2e.jpg
+        )
+
+    [1] => Array
+        (
+            [orderItemId] => 22
+            [orderId] => 23
+            [productId] => 1
+            [quantity] => 2
+            [totalPrice] => 2400000
+            [productName] => OLAV DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Thun gân
+Cổ yếm, xẻ ngực sâu
+Dáng váy ôm phần trên, xếp tầng xoè nhẹ phần dưới
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1200000
+            [categoryId] => 2
+            [stock] => -1
+            [views] => 14
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da6db620ab-z6130998470996_b480dda554d649fd22f78904e5c3beeb.jpg
+        )
+
+    [2] => Array
+        (
+            [orderItemId] => 23
+            [orderId] => 23
+            [productId] => 4
+            [quantity] => 2
+            [totalPrice] => 3200000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:07 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:08 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:15:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:08 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:08 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] getUserDetailByUserId - Raw data: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+)
+
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] getUserDetailByUserId - User object: Array
+(
+    [id] => 5
+    [userName] => 
+    [email] => admin@gmail.com
+    [phone] => 
+    [city] => 
+    [district] => 
+    [ward] => 
+    [street] => 
+    [image] => 
+    [isAdmin] => 
+    [password] => 
+)
+
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] Debug - Order data: Array
+(
+    [orderId] => 22
+    [userId] => 5
+    [userName] => Đỗ Hữu Phước
+    [status] => ordered
+    [orderTotal] => 6400000
+    [shippingCost] => 0
+    [city] => Hồ Chí Minh
+    [district] => Thủ Đức
+    [ward] => Linh đông
+    [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+    [phone] => 0376070230
+    [note] => 
+    [paymentMethod] => cod
+    [createdAt] => 2025-05-31
+    [updatedAt] => 2025-05-31
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [orderItemId] => 20
+                    [orderId] => 22
+                    [productId] => 4
+                    [quantity] => 4
+                    [totalPrice] => 6400000
+                    [productName] => LEVEL DRESS
+                    [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+                    [price] => 1600000
+                    [categoryId] => 2
+                    [stock] => 17
+                    [views] => 168
+                    [createdAt] => 2024-12-08
+                    [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+                )
+
+        )
+
+)
+
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] Debug - User data: User Object
+(
+    [id:User:private] => 5
+    [userName:User:private] => 
+    [email:User:private] => admin@gmail.com
+    [phone:User:private] => 
+    [city:User:private] => 
+    [district:User:private] => 
+    [ward:User:private] => 
+    [street:User:private] => 
+    [image:User:private] => 
+    [isAdmin:User:private] => 
+    [password:User:private] => 
+)
+
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] Debug - Order items: Array
+(
+    [0] => Array
+        (
+            [orderItemId] => 20
+            [orderId] => 22
+            [productId] => 4
+            [quantity] => 4
+            [totalPrice] => 6400000
+            [productName] => LEVEL DRESS
+            [productDesc] => SẢN PHẨM BAO GỒM
+
+Đầm
+
+Chất liệu: Nỉ mêm
+Cổ yếm, xẻ ngực sâu
+Dây kéo phía trước
+Dáng ôm phần trên, xoè phần dưới
+Hoạ tiết ca rô
+CÁC DỊP PHÙ HỢP
+
+Buổi tiệc, sự kiện hoặc dạo phố.
+            [price] => 1600000
+            [categoryId] => 2
+            [stock] => 17
+            [views] => 168
+            [createdAt] => 2024-12-08
+            [link] => uploads/products/675da67ef2352-z6130998404742_2cccb288f334b3f03a7e86c406448056.jpg
+        )
+
+)
+
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:09 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:11 Asia/Ho_Chi_Minh] Session when accessing /me: Array
+(
+    [auth] => 1
+    [userId] => 5
+    [delivery_info] => Array
+        (
+            [userName] => Đỗ Hữu Phước
+            [phone] => 0376070230
+            [city] => Hồ Chí Minh
+            [district] => Thủ Đức
+            [ward] => Linh đông
+            [street] => 33B, Phuong Linh Dong, thanh pho Thu Duc
+            [note] => 
+        )
+
+    [authAdmin] => 1
+)
+
+[31-May-2025 02:15:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:11 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 196
+[31-May-2025 02:15:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $product in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
+[31-May-2025 02:15:11 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\FashionShop\app\views\layout.php on line 199
